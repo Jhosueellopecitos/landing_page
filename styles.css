@@ -7,9 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #e0f7fa;
-    /* Color de fondo suave */
     background-image: url('https://www.kin.energy/Por%20qu%C3%A9%20es%20importante%20que%20tus%20proyectos%20sean%20sustentables1.jpg');
-    /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -18,7 +16,6 @@ body {
 nav {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
-    /* Fondo blanco semitransparente */
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -63,7 +60,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #2e7d32;
-    /* Color verde */
     font-size: 1.2em;
     position: relative;
     overflow: hidden;
@@ -90,25 +86,21 @@ nav ul li a:hover::before {
 .container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
-    /* Fondo blanco semitransparente */
     padding: 20px;
     border-radius: 10px;
     animation: fadeIn 2s ease-in-out;
     margin-top: 50px;
-    /* Espacio para el menú */
 }
 
 h1 {
     font-size: 3em;
     color: #2e7d32;
-    /* Color verde */
     animation: slideIn 1s ease-in-out;
 }
 
 p {
     font-size: 1.2em;
     color: #4caf50;
-    /* Color verde claro */
     animation: slideIn 1.5s ease-in-out;
 }
 
@@ -141,7 +133,6 @@ p {
     font-size: 1em;
     color: #fff;
     background-color: #388e3c;
-    /* Color verde oscuro */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -151,7 +142,6 @@ p {
 
 .button:hover {
     background-color: #2e7d32;
-    /* Color verde más oscuro */
 }
 
 @keyframes bounce {
